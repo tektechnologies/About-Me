@@ -1,2 +1,2 @@
 # About-Me
-The About Me Repository is, well about me. 
+The About Me Repository is, well, about me. 
