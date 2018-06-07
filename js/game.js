@@ -74,4 +74,65 @@ if(answerFive.toUpperCase().trim() === 'YES' || answerFive.toUpperCase().trim() 
 }
 
 
+
+while (guess !== '2') {
+ 
+  +  // guess will be null if they hit Cancel
+     if (guess === null) {
+  -    console.log('Guess is null; breaking');
+  +    console.log('User hit cancel for favorite number');
+   
+       // Escape the loop!
+       break;
+  while (guess !== '2') {
+     guessCount = guessCount + 1;
+   
+     console.log('guessCount is ' + guessCount);
+  -  console.log('end of while loop');
+  +  console.log('about to return to top of while loop');
+   }
+   
+  -console.log('while loop exited');
+  +console.log('done guessing (while loop is finished)');
+   
+  +// If they cancelled the prompt...
+   if (guess === null) {
+  +
+     alert('Wimp. My favorite number is 2, obviously.');
+  +
+   } else {
+  +  // They must have gotten the answer right
+     console.log('not a wimp');
+   
+     if (guessCount === 1) {
+  -    alert('Right on the first try!'); 
+  +    alert('Right on the first try!');
+     } else {
+       alert('It took ' + guessCount + ' guesses to get it right!');
+     }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 alert('Thanks for Playin...');

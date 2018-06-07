@@ -23,8 +23,8 @@
 #banner-right		{ float:right;	width:300px; margin-left:50px;}
 #banner-right img	{ width:270px; height:270px; border:12px #036 solid;}
 
-#content 		{ width:540px; float:left; margin:0 0 20px 0;}
-#content-div	{ background-color:#DBE2EE; overflow:auto;}
+#content 		{ width:540px; height:600px; float:left; margin:0 0 20px 0;}
+#content-div	{ background-color:#DBE2EE; overflow:auto;font-size:22px;}
 #content-wrap	{ margin:0 auto; width:900px;}
 #content h1		{ font-size:30px; font-weight:600; margin:40px 0 10px 0;  border-bottom:1px #aaa solid; padding-bottom:15px;
              	  text-transform:uppercase;}
