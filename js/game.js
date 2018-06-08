@@ -133,40 +133,24 @@ alert('The Random number Generator choose ' + y + ' as it\'s number .');
 
 
 
-var userCorrect = false;
-var states = ['Illinois', 'Iowa', 'Arkanasas', 'California','Texas'];
-var attempts = 7;
-var userAnswer = prompt('What states have I lived in?');
+var states = ['ILLINIOS', 'IOWA', 'ARKANASAS', 'CALIFORNIA','TEXAS','OMAN','GERMANY'];
+console.log(states.length);
+var attempts = 0;
 
-for(var i = 0; i < states.length; i++){
-  if(userAnswer === states[i]){
-    alert('You guessed correctly, I really like the state of. '+ userAnswer);
-    userCorrect++;
-    userCorrect = true;
-    break;
+
+
+while(attempts !== 7){
+  var userAnswer = prompt('What states of the world, have I lived in?');
+  var userAnswerTrimmedToUpper = userAnswer.toUpperCase().trim();
+  if (states.indexOf(userAnswerTrimmedToUpper) >= 0) {
+    alert('Yes! ' + userAnswer + ' is one of my favorite states!');
+  } else {
+    alert('WRONG');
+
   }
-  if(attempts !== 7){
-    userCorrect = false;
-  }
+  attempts++;
 }
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alert('All states that I lived in are: ' + states.join(', '));
 
 alert('Thanks for Playin...');
