@@ -44,6 +44,5 @@ text-align: left;
 color: #000;
 }
 
-ol, ul, li	{ list-style: none; }
-
+/*ol, ul, li	{ list-style: none; }*/
 img			{ max-width:100%; }
