@@ -103,10 +103,14 @@ while (opportunities > 0) {
    argument to a number that represents the object's value. */
   userChoice = Number(userChoice);
   console.log('userChoice is ' + userChoice);
+  console.log('Random generator number is ' + y);
+
   /**check condition of input to random number selected */
   if (userChoice === y) {
+    alert('thats right you guessed the random number way to go!');
     /**I need help with this part I know I need it I just dont know why. */
     opportunities = 0;
+    break;
   } else {
     /*Notfies user that they were wrong and take the input decides if
     * it was higher or lower than the random number in the if statements. */
@@ -129,6 +133,24 @@ alert('The Random number Generator choose ' + y + ' as it\'s number .');
 
 
 
+var userCorrect = false;
+var states = ['Illinois', 'Iowa', 'Arkanasas', 'California','Texas'];
+var attempts = 7;
+var userAnswer = prompt('What states have I lived in?');
+
+for(var i = 0; i < states.length; i++){
+  if(userAnswer === states[i]){
+    alert('You guessed correctly, I really like the state of. '+ userAnswer);
+    userCorrect++;
+    userCorrect = true;
+    break;
+  }
+  if(attempts !== 7){
+    userCorrect = false;
+  }
+}
+
+  
 
 
 
