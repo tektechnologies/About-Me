@@ -72,51 +72,21 @@ if(answerFive.toUpperCase().trim() === 'YES' || answerFive.toUpperCase().trim() 
 {
   alert('That is inCorrect, I had 56-60 customers in a 6 block radius and went through three bikes in three years delivering 7 days a week.');
 }
-
-
-/*
-while (guess !== '2') {
-
-    // guess will be null if they hit Cancel
-     if (guess === null) {
-      console.log('Guess is null; breaking');
-      console.log('User hit cancel for favorite number');
-
-       // Escape the loop!
-       break;
-  while (guess !== '2') {
-     guessCount = guessCount + 1;
-
-     console.log('guessCount is ' + guessCount);
-    console.log('end of while loop');
-    console.log('about to return to top of while loop');
-   }
-
-  -console.log('while loop exited');
-  +console.log('done guessing (while loop is finished)');
-
-  // If they cancelled the prompt...
-   if (guess === null) {
-
-     alert('Wimp. My favorite number is 2, obviously.');
-
-   } else {
-    // They must have gotten the answer right
-     console.log('not a wimp');
-
-     if (guessCount === 1) {
-  -    alert('Right on the first try!');
-      alert('Right on the first try!');
-     } else {
-       alert('It took ' + guessCount + ' guesses to get it right!');
-     }*/
-
-/*
-   logic and structure from:
-   http://davidbau.com/javascript/learn/04-guess.html
-   I did go through entire code and rewrite it.
+/**
+   *logic and structure from:
+   *http://davidbau.com/javascript/learn/04-guess.html
+   *I did go through entire code and rewrite it. added and subtracted code.
+   *Beggining of lab 3.
    */
-
+/**Jennifer Nordell
+* Math.random() generates a number
+*between 0 and 1 but not including 1. So if we multiply it
+*by 10 and then take the floor of it, we will only ever get
+*a possible range of 0 to 9.Adding the one not only increases
+*the upper bound but also the lower bound. So let's say we
+*generated a 0.001. Now when we multiply that by 10 (result: 0.01) and take the floor of
+*that we get a 0. But adding the one guarantees that our
+*lowest number will never be lower than 1.*/
 var y = Math.floor(Math.random() * 10) + 1;
 var opportunities = 4;
 var robotVoice = 'Guess a integer from 1 to 10!';
@@ -128,26 +98,29 @@ while (opportunities > 0) {
   /*Lets the out of the program if they select cancel.*/
   if (!userChoice){
     break;
-  } 
+  }
   /**The Number() function converts the object
    argument to a number that represents the object's value. */
   userChoice = Number(userChoice);
+  console.log('userChoice is ' + userChoice);
   /**check condition of input to random number selected */
   if (userChoice === y) {
     /**I need help with this part I know I need it I just dont know why. */
     opportunities = 0;
   } else {
-    /*Notfies user that they were wrong and take the input decides if 
+    /*Notfies user that they were wrong and take the input decides if
     * it was higher or lower than the random number in the if statements. */
     robotVoice = 'You were close, but no, try again.';
     if (userChoice < y){
       robotVoice += ' Too Low!';
-    } 
+    }
     if (userChoice > y) {
       robotVoice += ' Too High!';
     }
     /*This decrements the opportunities each time the user enters a try. */
     opportunities = opportunities - 1;
+    console.log('guessCount is ' + opportunities);
+
   }
 }
 /*This line of code sits outside the loop so that if the user cancels or fails
