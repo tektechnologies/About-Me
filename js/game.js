@@ -133,10 +133,10 @@ alert('The Random number Generator choose ' + y + ' as it\'s number .');
 
 
 
-var states = ['ILLINIOS', 'IOWA', 'ARKANASAS', 'CALIFORNIA','TEXAS','OMAN','GERMANY'];
+var states = ['ILLINOIS', 'IOWA', 'ARKANSAS', 'CALIFORNIA','TEXAS','OMAN','GERMANY'];
 console.log(states.length);
 var attempts = 0;
-
+var correctAnswer = 0;
 
 
 while(attempts !== 7){
@@ -144,6 +144,7 @@ while(attempts !== 7){
   var userAnswerTrimmedToUpper = userAnswer.toUpperCase().trim();
   if (states.indexOf(userAnswerTrimmedToUpper) >= 0) {
     alert('Yes! ' + userAnswer + ' is one of my favorite states!');
+    correctAnswer++;
   } else {
     alert('WRONG');
 
@@ -152,5 +153,6 @@ while(attempts !== 7){
 }
 
 alert('All states that I lived in are: ' + states.join(', '));
+alert('You answered' + correctAnswer + ' out of 7 correctly');
 
 alert('Thanks for Playin...');
