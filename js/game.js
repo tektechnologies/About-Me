@@ -1,9 +1,17 @@
 'use strict';
 
 console.log('Working');
+
+
+
 startGame();
 
 function startGame(){
+
+  var userName;
+  userName =prompt('Hello, what is your name?');
+  console.log('name? ' + userName);
+  alert('Hello ' + userName + ' thanks for visiting my site! and .......');
   questionOne();
   questionTwo();
   questionThree();
@@ -14,139 +22,108 @@ function startGame(){
 }
 
 
-function questionOne(){
-  alert('Welcome to the long awaited expansion that is the AboutMe Game.');
-  var validInput = false;
-  while(validInput === false){
-    var questionOne = 'Do I have two Sons that are aged 17 and 22';
-    var answerOne = prompt(questionOne);
-    console.log(answerOne);
-    if(answerOne === null){
-      break;
-    }
-    while(answerOne === 'yes' || answerOne === 'no'){
-      if(answerOne.toUpperCase().trim() === 'YES' || answerOne.toUpperCase().trim() === 'Y')
-      {
-        alert('That is Correct, I do have two sons, who are that old.');
-        validInput = true;
-        break;
 
-      } else if(answerOne.toUpperCase().trim() === 'NO' || answerOne.toUpperCase().trim() === 'N')
-      {
-        alert('That is inCorrect, I am actually that old, Yikes!');
-        validInput = true;
-        break;
-      }
-    }
+function questionOne(){
+
+  alert('Welcome to the long awaited expansion that is the AboutMe Game.');
+
+  var questionOne = prompt('Do I have two Sons that are aged 17 and 22');
+
+  var answerOne = questionOne.toUpperCase().trim();
+
+  console.log(answerOne);
+
+  if(answerOne === 'YES' || answerOne === 'Y')
+  {
+    alert('That is Correct, I do have two sons, who are that old.');
+
+  } else if(answerOne === 'NO' || answerOne === 'N')
+  {
+    alert('That is inCorrect, I am actually that old, Yikes!');
+
+  } else {
     alert('Please remember to enter: yes  or  no!');
   }
 }
 
 
-function questionTwo(){
-  var validInput = false;
-  while(validInput === false){
-    var questionTwo = 'Is pepperoni pizza my favorite kind of ZA?';
-    var answerTwo = prompt(questionTwo);
-    console.log(answerTwo);
-    if(answerTwo === null){
-      break;
-    }
-    while(answerTwo === 'yes' || answerTwo === 'no'){
-      if(answerTwo.toUpperCase().trim() === 'YES' || answerTwo.toUpperCase().trim() === 'Y')
-      {
-        alert('That is Correct, Pepperonni is my Favorite ZA, Tamasos Detriot, to be exact.');
-        validInput = true;
-        break;
 
-      } else if(answerTwo.toUpperCase().trim() === 'NO' || answerTwo.toUpperCase().trim() === 'N')
-      {
-        alert('That is inCorrect, pepperonni for life, unitl my stomach can\'t take it anymore, anyway.');
-        validInput = true;
-        break;
-      }
-    }
+function questionTwo(){
+
+  var questionTwo = prompt('Is pepperoni pizza my favorite kind of ZA?');
+  var answerTwo = questionTwo.toUpperCase().trim();
+  console.log(answerTwo);
+
+
+  if(answerTwo === 'YES' || answerTwo === 'Y')
+  {
+    alert('That is Correct, Pepperonni is my Favorite ZA, Tamasos Detriot, to be exact.');
+
+
+  } else if(answerTwo === 'NO' || answerTwo === 'N')
+  {
+    alert('That is inCorrect, pepperonni for life, unitl my stomach can\'t take it anymore, anyway.');
+
+  } else {
     alert('Please remember to enter: yes  or  no!');
   }
 }
 
 
 function questionThree(){
-  var validInput = false;
-  while(validInput === false){
-    var questionThree = 'Have I owned an Atarri 2600, PS1, PS2, Xbox, Xbox360, XboxOne, and Nintendo?';
-    var answerThree = prompt(questionThree);
-    console.log(answerThree);
-    if(answerThree === null){
-      break;
-    }
-    while(answerThree === 'yes' || answerThree === 'no'){
-      if(answerThree.toUpperCase().trim() === 'YES' || answerThree.toUpperCase().trim() === 'Y')
-      {
-        alert('That is Correct, I once played GTA on PS2 for like a decade.');
-        validInput = true;
-        break;
 
-      } else if(answerThree.toUpperCase().trim() === 'NO' || answerThree.toUpperCase().trim() === 'N')
-      {
-        alert('That is inCorrect, I have been gaming since the Apple IIe, goto 10 I say...');
-        validInput = true;
-        break;
-      }
-    }
+  var questionThree = prompt('Have I owned an Atarri 2600, PS1, PS2, Xbox, Xbox360, XboxOne, and Nintendo?');
+  var answerThree = questionThree.toUpperCase().trim();
+  console.log(answerThree);
+
+  if(answerThree === 'YES' || answerThree === 'Y')
+  {
+    alert('That is Correct, I once played GTA on PS2 for like a decade.');
+
+  } else if(answerThree === 'NO' || answerThree === 'N')
+  {
+    alert('That is inCorrect, I have been gaming since the Apple IIe, goto 10 I say...');
+
+  } else {
     alert('Please remember to enter: yes  or  no!');
   }
 }
 
 function questionFour(){
 
-  var validInput = false;
-  while(validInput === false){
-    var questionFour = 'Did I work in a California Bar making Burgers?';
-    var answerFour = prompt(questionFour);
-    console.log(answerFour);
-    if(answerFour === null){
-      break;
-    }
-    while(answerFour === 'yes' || answerFour === 'no'){
-      if(answerFour.toUpperCase().trim() === 'YES' || answerFour.toUpperCase().trim() === 'Y')
-      {
-        alert('That is Correct, Eastbound Bar and Grill and the HighDive in San Diego, however, In and Out Burger, is still my favorite.');
-        validInput = true;
-        break;
-      } else if(answerFour.toUpperCase().trim() === 'NO' || answerFour.toUpperCase().trim() === 'N')
-      {
-        alert('That is inCorrect, I have always worked second jobs at pizza places and burger joints.');
-        validInput = true;
-        break;
-      }
-    }
+
+  var questionFour = prompt('Did I work in a California Bar making Burgers?');
+  var answerFour = questionFour.toUpperCase().trim();
+  console.log(answerFour);
+
+
+  if(answerFour === 'YES' || answerFour === 'Y')
+  {
+    alert('That is Correct, Eastbound Bar and Grill and the HighDive in San Diego, however, In and Out Burger, is still my favorite.');
+
+  } else if(answerFour === 'NO' || answerFour === 'N')
+  {
+    alert('That is inCorrect, I have always worked second jobs at pizza places and burger joints.');
+
+  } else {
     alert('Please remember to enter: yes  or  no!');
   }
 }
 
 function questionFive(){
-  var validInput = false;
-  while(validInput === false){
-    var questionFive = 'Did I have a paper route, delivering news papers?';
-    var answerFive = prompt(questionFive);
-    console.log(answerFive);
-    if(answerFive === null){
-      break;
-    }
-    while(answerFive === 'yes' || answerFive === 'no'){
-      if(answerFive.toUpperCase().trim() === 'YES' || answerFive.toUpperCase().trim() === 'Y')
-      {
-        alert('That is Correct, I was Joliet Herald News Carrier of the Year 1987, I think I was 13.');
-        validInput = true;
-        break;
-      } else if(answerFive.toUpperCase().trim() === 'NO' || answerFive.toUpperCase().trim() === 'N')
-      {
-        alert('That is inCorrect, I had 56-60 customers in a 6 block radius and went through three bikes in three years delivering 7 days a week.');
-        validInput = true;
-        break;
-      }
-    }
+
+  var questionFive = prompt('Did I have a paper route, delivering news papers?');
+  var answerFive = questionFive.toUpperCase().trim();
+  console.log(answerFive);
+
+  if(answerFive === 'YES' || answerFive === 'Y')
+  {
+    alert('That is Correct, I was Joliet Herald News Carrier of the Year 1987, I think I was 13.');
+
+  } else if(answerFive === 'NO' || answerFive === 'N')
+  {
+    alert('That is inCorrect, I had 56-60 customers in a 6 block radius and went through three bikes in three years delivering 7 days a week.');
+  } else {
     alert('Please remember to enter: yes  or  no!');
   }
 }
