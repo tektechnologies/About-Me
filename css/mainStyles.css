@@ -1,7 +1,10 @@
-
+h2 {
+	font-family: 'Baloo Bhaina', cursive;
+}
 
 #top-section {
 	background-color: #3772FF;
+	
 }
 
 #top {
@@ -19,6 +22,7 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	margin: 16px 0 6px 0;
+
 }
 
 #name h3 {
