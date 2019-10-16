@@ -7,3 +7,12 @@ ul il {
 	list-style-type: disc;
 	padding-left: 20px;
 }
+
+
+header{
+    text-align: center;
+    width: 100%;
+    background-color: #3772FF;
+    width: 900px;
+	margin: 0 auto;
+}
