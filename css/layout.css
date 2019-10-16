@@ -1,25 +1,11 @@
-h2 {
-	font-family: 'Baloo Bhaina', cursive;
-}
-
-#top-section {
-	background-color: #3772FF;
-	
-}
-
-#top {
-	width: 900px;
-	margin: 0 auto;
-}
-
 #name {
 	float: left;
 }
-
 #name h2 {
+    float: left;
 	color: #fff;
-	font-size: 36px;
-	font-weight: 600;
+	font-size: 56px;
+	font-weight: 400;
 	text-transform: uppercase;
 	margin: 16px 0 6px 0;
 
@@ -37,7 +23,7 @@ h2 {
 }
 
 #topnav {
-	width: 900px;
+	width: 1100px;
 	margin: 0 auto;
 	clear: both;
 	text-align: right;
@@ -56,13 +42,10 @@ h2 {
 	color: #fff;
 }
 
-ul il {
-	list-style-type: disc;
-	padding-left: 20px;
-}
+
 
 #banner {
-	width: 900px;
+	width: 1200px;
 	margin: 0 auto;
 	clear: both;
 	overflow: auto;
@@ -101,14 +84,14 @@ ul il {
 }
 
 #banner-right {
-	float: right;
-	width: 300px;
-	margin-left: 50px;
+	
+	width: 250px;
+	
 }
 
 #banner-right img {
-	width: 270px;
-	height: 270px;
+	width: 200px;
+	height: 220px;
 	border: 12px #036 solid;
 }
 
