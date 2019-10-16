@@ -1,10 +1,5 @@
-h2 {
-	font-family: 'Baloo Bhaina', cursive;
-}
-
 #top-section {
 	background-color: #3772FF;
-	
 }
 
 #top {
@@ -56,10 +51,7 @@ h2 {
 	color: #fff;
 }
 
-ul il {
-	list-style-type: disc;
-	padding-left: 20px;
-}
+
 
 #banner {
 	width: 900px;
