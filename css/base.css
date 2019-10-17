@@ -8,6 +8,13 @@ ul il {
 	padding-left: 20px;
 }
 
+/* section ul {
+    width: 300px;
+    margin-right: 0px;
+    display: inline-block;
+    text-align: left;
+    padding-inline-start: 20px;
+} */
 
 header{
     text-align: center;
@@ -16,8 +23,24 @@ header{
     width: 1200px;
 	margin: 0 auto;
 }
+main {
+    line-height: 30px;
+}
 
-img {
+/* section img {
+    margin-top: 30px;
+    border-radius: 5px;
+} */
+
+
+section img:hover {
+    transform: scale(1.4);
+}
+
+
+
+
+ img {
     border-radius: 50%;
     float: left;
   }

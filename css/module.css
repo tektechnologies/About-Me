@@ -1,0 +1,26 @@
+topten-wrapper {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+}
+
+list-wrapper {
+    margin: 0px 0px 30px 0px;
+    padding-top: 50px;
+}
+
+.unoderedList, 
+.orderedList {
+margin: 40px 20px;
+width: 520px;
+padding: 0px;
+border-radius: 5px;
+box-shadow: 0px 0px 20px #333;
+background-color: #fbfbfb;
+display: inline-block;
+height: 270px;
+}
+
+.orderedList section,
+.unoderedList section {
+    display: inline-block;
+}
