@@ -23,6 +23,23 @@ header{
     width: 1200px;
 	margin: 0 auto;
 }
+main {
+    line-height: 30px;
+}
+
+section img {
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+section img:hover {
+    transform: scale(1.4);
+}
+
+
+
+
 
 img {
     border-radius: 50%;
