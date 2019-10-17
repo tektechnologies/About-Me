@@ -3,6 +3,12 @@ h2 {
 }
 
 
+ul{
+    padding-top: 50px;
+}
+
+
+
 ul il {
 	list-style-type: disc;
 	padding-left: 20px;
@@ -41,6 +47,7 @@ section img:hover {
 
 
  img {
+    margin-top: 25px;
     border-radius: 50%;
     float: left;
   }
