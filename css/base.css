@@ -1,23 +1,23 @@
 h2 {
+
 	font-family: 'Baloo Bhaina', cursive;
+}
+li {
+    padding: 2px;
 }
 
 ul{
-    padding-top: 50px;
+    padding-top: 10px;
 }
-
+ol{
+    padding-top: 10px;
+}
+.htwo {
+ padding-top: 10px;
+}
 ul il {
 	list-style-type: disc;
-	padding-left: 20px;
 }
-
-/* section ul {
-    width: 300px;
-    margin-right: 0px;
-    display: inline-block;
-    text-align: left;
-    padding-inline-start: 20px;
-} */
 
 header{
     text-align: center;
@@ -29,16 +29,13 @@ header{
 
 main {
     line-height: 30px;
-    
 }
 
-section img:hover {
+#banner-right img:hover {
     transform: scale(1.4);
 }
 
- img {
-    margin-top: 25px;
-    border-radius: 50%;
-    float: left;
+article {
+    font-size: 20px;
+    font-family: 'Baloo Bhaina', cursive;
   }
-

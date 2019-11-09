@@ -6,15 +6,12 @@
 #name h2 {
     float: left;
     color: #3772FF;
-    
 	font-size: 56px;
 	font-weight: 400;
 	text-transform: uppercase;
     margin: 16px 0 6px 0;
-    
-    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: #fff;
-
 }
 
 #name h3 {
@@ -75,15 +72,13 @@
     width: 900px;
 }
 
-
-
 #banner-left h2 {
 	color: #E2EF70;
 	font-weight: 300;
 	font-size: 30px;
 	margin: 20px 0;
     text-transform: uppercase;
-    float: right;
+    /* float: right; */
    
 }
 
@@ -102,16 +97,17 @@
 }
 
 #banner-right {
-	
 	width: 250px;
-	
 }
 
 #banner-right img {
-    margin-left: 25px;
+	margin-top: 25px;
+    margin-left: 45px;
 	width: 215px;
 	height: 220px;
 	border: 12px #036 solid;
+    border-radius: 50%;
+    float: left;
 }
 
 #content {
@@ -125,9 +121,9 @@
 	margin: 0 0 20px 0;
 }
 #content-section {
-	background-color: #DBE2EE;
-	overflow: auto;
-	font-size: 22px;
+	margin-left: 100px;
+	/* overflow: auto; */
+	font-size: 16px;
 }
 
 #content-wrapper {
@@ -151,7 +147,7 @@
 }
 
 #footer-bg {
-	clear: both;
+	/* clear: both; */
 	background-color: #EF709D;
 	overflow: auto;
 	border-top: 15px #F038FF solid;
@@ -160,11 +156,8 @@
 #box1 {
 	width: 200px;
 	float: left;
-	margin-right: 20px;
-}
-
-#box1 {
 	margin: 20px 0 40px 0;
+	margin-right: 20px;
 }
 
 #box1 h3 {
