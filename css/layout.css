@@ -40,7 +40,7 @@
 #topnav ul li {
    
 	display: inline;
-	list-style-type: disc;
+	list-style-type: none;
 }
 
 #topnav ul li a {
