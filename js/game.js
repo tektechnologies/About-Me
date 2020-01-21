@@ -1,39 +1,38 @@
 'use strict';
 console.log('js doc linked');
 
-//startGame();
 
-//var userName = prompt('What is your name?');
+var userName = prompt('What is your name?');
+alert('Hello ' + userName + ' thanks for visiting my site! and .......');
+console.log('name? ' + userName);
 
-//alert('Hello ' + userName + ' thanks for visiting my site! and .......');
-
-//console.log('name? ' + userName);
-// function startGame(){
-//   // questionOne();
+function startGame(){
+  questionOne();
 //   // questionTwo();
 //   // questionThree();
 //   // questionFour();
 //   // questionFive();
 //   // questionSix();
 //   // questionSeven();
-// }
+}
 
-// function questionOne(){
-//   alert('Welcome to the long awaited expansion that is the AboutMe Game.');
 
-//   var questionOne = prompt('Do I have two Sons that are aged 18 and 24');
-//   var answerOne = questionOne.toUpperCase().trim();
+function questionOne(){
+  alert('Welcome to the long awaited expansion that is the AboutMe Game.');
 
-//   console.log(answerOne);
+  var questionOne = prompt('Do I have two Sons that are aged 18 and 24');
+  var answerOne = questionOne.toUpperCase().trim();
 
-//   if(answerOne === 'YES' || answerOne === 'Y') {
-//     alert('That is Correct, I do have two sons, who are that old.');
-//   } else if(answerOne === 'NO' || answerOne === 'N') {
-//     alert('That is inCorrect, I am actually that old, Yikes!');
-//   } else {
-//     alert('Please remember to enter: yes  or  no!');
-//   }
-// }
+  console.log(answerOne);
+
+  if(answerOne === 'YES' || answerOne === 'Y') {
+    alert('That is Correct, I do have two sons, who are that old.');
+  } else if(answerOne === 'NO' || answerOne === 'N') {
+    alert('That is inCorrect, I am actually that old, Yikes!');
+  } else {
+    alert('Please remember to enter: yes  or  no!');
+  }
+}
 
 // function questionTwo() {
 //   var questionTwo = prompt('Is pepperoni pizza my favorite kind of ZA?');
@@ -184,3 +183,4 @@ console.log('js doc linked');
 //   results.innerHTML = finalResults;
 // }
 
+startGame();
