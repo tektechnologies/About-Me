@@ -143,25 +143,22 @@
 #footer {
 	width: 900px;
 	margin: 0 auto;
-	clear: both;
+	font-size: 25px;
 }
 
 #footer-bg {
-	/* clear: both; */
+	clear: both;
 	background-color: #EF709D;
 	overflow: auto;
 	border-top: 15px #F038FF solid;
 }
 
 #box1 {
-	width: 200px;
-	float: left;
-	margin: 20px 0 40px 0;
-	margin-right: 20px;
+	width: 600px;
+	height: 150px;
 }
 
 #box1 h3 {
 	color: #fff;
-	margin: 20px 0 15px 0;
 }
 
