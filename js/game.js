@@ -2,6 +2,8 @@
 
 console.log('js doc linked');
 
+window.onload = function() {
+    //dom not only ready, but everything is loaded
 
 var userName = prompt('What is your name?');
 alert('Hello ' + userName + ' thanks for visiting my site! and .......');
@@ -185,3 +187,4 @@ function questionSeven(){
 }
 
 startGame();
+ };
