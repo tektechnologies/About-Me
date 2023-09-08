@@ -43,4 +43,6 @@ article {
 #video-game-list {
    margin-left: 250px
 }
-
+#video-game-list li {
+    list-style-type: none;
+}
