@@ -1,41 +1,48 @@
 h2 {
-
-	font-family: 'Baloo Bhaina', cursive;
+  font-family: "Baloo Bhaina", cursive;
 }
 li {
-    padding: 2px;
+  padding: 2px;
 }
 
-ul{
-    padding-top: 10px;
+ul {
+  padding-top: 10px;
 }
-ol{
-    padding-top: 10px;
+ol {
+  padding-top: 10px;
 }
 .htwo {
- padding-top: 10px;
+  padding-top: 10px;
 }
 ul il {
-	list-style-type: disc;
+  list-style-type: disc;
 }
 
-header{
-    text-align: center;
-    width: 100%;
-    background-color: #3772FF;
-    width: 1200px;
-	margin: 0 auto;
+header {
+  text-align: center;
+  width: 100%;
+  background-color: #3772ff;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 main {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 #banner-right img:hover {
-    transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 article {
-    font-size: 20px;
-    font-family: 'Baloo Bhaina', cursive;
-  }
+  font-size: 20px;
+  font-family: "Baloo Bhaina", cursive;
+}
+
+#video-game-list li {
+  list-style-type: none;
+  z-index: 100;
+  /* text-align: right; */
+}
+
+
