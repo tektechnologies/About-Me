@@ -39,10 +39,8 @@ article {
   font-family: "Baloo Bhaina", cursive;
 }
 
-#video-game-list li {
-  list-style-type: none;
-  z-index: 100;
-  /* text-align: right; */
-}
 
+#video-game-list {
+   margin-left: 250px
+}
 
