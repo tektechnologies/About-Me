@@ -157,7 +157,7 @@ window.onload = function() {
 
   function questionSeven(){
 
-    var states = ['ILLINOIS', 'IOWA', 'ARKANSAS', 'CALIFORNIA','TEXAS','OMAN','GERMANY'];
+    var states = ['ILLINOIS', 'IOWA', 'ARKANSAS', 'CALIFORNIA','TEXAS','OMAN','GERMANY','JORDAN','SAUDI ARABIA'];
     console.log(states.length);
     var attempts = 0;
     var correctAnswer = 0;
