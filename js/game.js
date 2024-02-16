@@ -23,7 +23,7 @@ window.onload = function() {
   function questionOne(){
     alert('Welcome to the long awaited expansion that is the AboutMe Game.');
 
-    var questionOne = prompt('Do I have two Sons that are aged 18 and 24');
+    var questionOne = prompt('Do I have two Sons that are aged 23 and 28');
     var answerOne = questionOne.toUpperCase().trim();
 
     console.log(answerOne);
