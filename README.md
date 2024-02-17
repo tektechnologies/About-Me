@@ -1,2 +1,5 @@
 # About-Me
-The About Me Repository is, well, about me. 
+
+The About Me Repository is, well, about me.
+
+As a Software Developer and Graphic Designer, I enjoy bridging the gap between technical functionalities and aesthetic design. I participate in brainstorming sessions, pair programming and design reviews to contribute creative ideas and solutions. Daily collaborating with team members, and product owners to develop solutions while also creating visually appealing graphics to enhance user experience; with clients to understand their requirements and translate them with the development team to design, test, and deploy software applications. Managing multiple tasks simultaneously; to communicate project progress, milestones, and potential roadblocks to clients in a clear and professional manner. Most current programming languages used are Java, JavaScript, with Code.org training for CS teachers in Iowa and Python and Javascript with Girls Who Code club. Use of Adobe Creative Suite to create high-quality designs. Combining my technical expertise with creative design skills, additional languages and technologies utilized: Wix, Wordpress, Elementor, BlueHost, Flywheel and GitHub.
